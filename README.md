@@ -30,7 +30,7 @@ Self-learning AI, namely the deep learning subset of Machine Learning, promises 
 
 </br>
 </br>
-
+</br>
 <strong>The Problem</strong>
 </br>
 </br>
@@ -39,13 +39,11 @@ Game developers often use algorithms like the Finite State Machine (FSM) to make
 </br>
 </br>
 </br>
-</br>
 <strong>Motivation</strong>
 </br>
 </br>
 While FSMs are hard-coded, machine learning is the ability of a system to learn and improve from experience, without being explicitly programmed to do so. Machine learning algorithms can offload a lot of the work that a game developer currently needs to perform. Currently, perfecting an AI can take days of hardcoding [1]. NPC character control and other things like the generation of unique environments could be automated if reliable algorithms are developed. The fact that machine learning has not taken over traditional AI in the video game industry made me very curious to find out what are the challenges that machine learning in video games faces.
 
-</br>
 </br>
 </br>
 </br>
@@ -58,7 +56,6 @@ Strongly inspired by OpenAI‘s paper „Emergent Tool Use from Multi-Agent Inte
 •	Attempted on a much smaller scale of a single system (laptop computer) </br>
 •	Includes scripting a FSM agent to directly compare to a trained agent </br>
 
-</br>
 </br>
 </br>
 </br>
@@ -80,8 +77,9 @@ Most of the objectives are done in preparation before the implementation (object
 </br>
 </br>
 </br>
-</br>
-<strong>Aims and Objectives</strong>
+<strong>Outcome</strong>
 </br>
 </br>
 In the end, both the hider and seeker agents were successfully trained to play a simple game of hide and seek. While the performance of the trained agent was not up to par with the scripted agent, it could still be further improved with more training time and alternative training methods. Despite the shortcomings in performance, the trained agents took much less programming time by reusing existing code and fitting the entire code in a single script file. Unity is continuing the development of its machine learning toolkit which promises to improve training and provide access to more computational power via cloud training soon. Further information on agent performance, training, issues of machine learning and other findings will be expanded on in the appropriate chapters.
+
+
