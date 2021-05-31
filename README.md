@@ -87,6 +87,8 @@ Most of the objectives are done in preparation before the implementation (object
 In the end, both the hider and seeker agents were successfully trained to play a simple game of hide and seek. While the performance of the trained agent was not up to par with the scripted agent, it could still be further improved with more training time and alternative training methods. Despite the shortcomings in performance, the trained agents took much less programming time by reusing existing code and fitting the entire code in a single script file. Unity is continuing the development of its machine learning toolkit which promises to improve training and provide access to more computational power via cloud training soon. Further information on agent performance, training, issues of machine learning and other findings will be expanded on in the appropriate chapters.
 
 
-...... </br>
+</br>
+...... 
+</br>
 full dissertation can be downloaded from this github
 
