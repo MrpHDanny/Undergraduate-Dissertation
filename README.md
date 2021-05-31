@@ -42,7 +42,7 @@ Game developers often use algorithms like the Finite State Machine (FSM) to make
 <strong>Motivation</strong>
 </br>
 </br>
-While FSMs are hard-coded, machine learning is the ability of a system to learn and improve from experience, without being explicitly programmed to do so. Machine learning algorithms can offload a lot of the work that a game developer currently needs to perform. Currently, perfecting an AI can take days of hardcoding [1]. NPC character control and other things like the generation of unique environments could be automated if reliable algorithms are developed. The fact that machine learning has not taken over traditional AI in the video game industry made me very curious to find out what are the challenges that machine learning in video games faces.
+While FSMs are hard-coded, machine learning is the ability of a system to learn and improve from experience, without being explicitly programmed to do so. Machine learning algorithms can offload a lot of the work that a game developer currently needs to perform. Currently, perfecting an AI can take days of hardcoding. NPC character control and other things like the generation of unique environments could be automated if reliable algorithms are developed. The fact that machine learning has not taken over traditional AI in the video game industry made me very curious to find out what are the challenges that machine learning in video games faces.
 
 </br>
 </br>
@@ -50,7 +50,7 @@ While FSMs are hard-coded, machine learning is the ability of a system to learn 
 <strong>Approach</strong>
 </br>
 </br>
-Strongly inspired by OpenAI‘s paper „Emergent Tool Use from Multi-Agent Interaction“ [2] which observed agents discovering progressively more complex tool use while playing a simple hide-and-seek game, a similar approach of training agents to play a variation of the game of hide-and-seek was chosen. Other existing projects and research papers that also attempt to train sophisticated AI in video game environments often use large-scale systems, are worked on by large teams that specialize in AI and use custom, closed source software. My approach, however, differs from these projects in several ways:
+Strongly inspired by OpenAI‘s paper „Emergent Tool Use from Multi-Agent Interaction“ which observed agents discovering progressively more complex tool use while playing a simple hide-and-seek game, a similar approach of training agents to play a variation of the game of hide-and-seek was chosen. Other existing projects and research papers that also attempt to train sophisticated AI in video game environments often use large-scale systems, are worked on by large teams that specialize in AI and use custom, closed source software. My approach, however, differs from these projects in several ways:
 </br>
 •	Only open-source tools are used </br>
 •	Attempted on a much smaller scale of a single system (laptop computer) </br>
@@ -82,4 +82,7 @@ Most of the objectives are done in preparation before the implementation (object
 </br>
 In the end, both the hider and seeker agents were successfully trained to play a simple game of hide and seek. While the performance of the trained agent was not up to par with the scripted agent, it could still be further improved with more training time and alternative training methods. Despite the shortcomings in performance, the trained agents took much less programming time by reusing existing code and fitting the entire code in a single script file. Unity is continuing the development of its machine learning toolkit which promises to improve training and provide access to more computational power via cloud training soon. Further information on agent performance, training, issues of machine learning and other findings will be expanded on in the appropriate chapters.
 
+
+...... </br>
+full dissertation can be downloaded from this github
 
