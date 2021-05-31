@@ -30,8 +30,7 @@ Self-learning AI, namely the deep learning subset of Machine Learning, promises 
 
 </br>
 </br>
-</br>
-</br>
+
 <strong>The Problem</strong>
 </br>
 </br>
