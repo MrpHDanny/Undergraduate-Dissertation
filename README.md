@@ -54,10 +54,10 @@ While FSMs are hard-coded, machine learning is the ability of a system to learn 
 </br>
 </br>
 Strongly inspired by OpenAI‘s paper „Emergent Tool Use from Multi-Agent Interaction“ [2] which observed agents discovering progressively more complex tool use while playing a simple hide-and-seek game, a similar approach of training agents to play a variation of the game of hide-and-seek was chosen. Other existing projects and research papers that also attempt to train sophisticated AI in video game environments often use large-scale systems, are worked on by large teams that specialize in AI and use custom, closed source software. My approach, however, differs from these projects in several ways:
-
-•	Only open-source tools are used
-•	Attempted on a much smaller scale of a single system (laptop computer)
-•	Includes scripting a FSM agent to directly compare to a trained agent
+</br>
+•	Only open-source tools are used </br>
+•	Attempted on a much smaller scale of a single system (laptop computer) </br>
+•	Includes scripting a FSM agent to directly compare to a trained agent </br>
 
 </br>
 </br>
@@ -67,13 +67,13 @@ Strongly inspired by OpenAI‘s paper „Emergent Tool Use from Multi-Agent Inte
 </br>
 </br>
 The project aims to investigate to what extent open-source machine learning toolkits such as Unity’s ‘ML-Agents’ can be used to train autonomous agents to replace traditional Finite State Machine agents in a game environment.
-To meet my aim, I broke it down into smaller objectives and made sure they were SMART (Specific, Measurable, Achievable, Relevant, and Time-bound). The objectives are as follows:
-1.	Use online courses, published articles as well as Unity’s ML-Agents documentation to research and identify a technique for implementing the AI.
-2.	Establish a set of game rules and agent behaviours to achieve the desired ‘hide and seek’ behaviour.
-3.	Build at least 3 game level prototypes on which the training will take place.
-4.	Define a set of observable parameters for the hider and seeker agents that will be used to compare their performance to a fully scripted agent.
-5.	Build a FSM seeker, implement and train the hider and seeker agents using the rules and behaviours defined in objective 2.
-6.	Evaluate if, and to what extent the behaviours of FSM AI can be reproduced using Machine Learning agents using the observable parameters defined in objective 4.
+To meet my aim, I broke it down into smaller objectives and made sure they were SMART (Specific, Measurable, Achievable, Relevant, and Time-bound). The objectives are as follows: </br>
+1.	Use online courses, published articles as well as Unity’s ML-Agents documentation to research and identify a technique for implementing the AI. </br>
+2.	Establish a set of game rules and agent behaviours to achieve the desired ‘hide and seek’ behaviour. </br>
+3.	Build at least 3 game level prototypes on which the training will take place. </br>
+4.	Define a set of observable parameters for the hider and seeker agents that will be used to compare their performance to a fully scripted agent. </br>
+5.	Build a FSM seeker, implement and train the hider and seeker agents using the rules and behaviours defined in objective 2. </br>
+6.	Evaluate if, and to what extent the behaviours of FSM AI can be reproduced using Machine Learning agents using the observable parameters defined in objective 4. </br>
 
 </br>
 Most of the objectives are done in preparation before the implementation (objectives 1 – 4). Firstly, adequate research into AI and machine learning must be initially completed to provide an understanding of both subjects and to identify a technique to implement the AI. The purpose of the second objective is to keep the environment controlled. For example, the game of hide and seek has many variations such as standard hide and seek, team up, sardines, hotter/colder, object hunt etc. A precisely defined rule set and behaviours would eliminate any ambiguity and allow for easy replication of the game in other projects and environments. The purpose of objective 3 is to allow for broader testing on how environments may influence training while objective 4 is needed to define the parameters that would allow to directly compare agents in these environments. The fifth objective is the broadest and covers the entire implementation step from scripting to training agents. This objective depends on objective 2 and 3, however only one environment is needed to begin training, thus objective 3 can be finished during the implementation phase. As the description suggests, the final objective evaluates whether the behaviour of traditional AI NPCs can be accurately reproduced using machine learning and uses the parameters from objective 4 to do so.
