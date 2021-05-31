@@ -22,12 +22,12 @@ Date of Submission: 07-05-2021
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<strong>Abstract</strong>
 
+<strong>Abstract</strong>
+</br>
+</br>
+</br>
+</br>
+</br>
 Self-learning AI, namely the deep learning subset of Machine Learning, promises to create more interesting, dynamic, and realistic game experiences by training machines to perform more complicated tasks in game environments. AI researchers at DeepMind, OpenAI, and more, are hard at work teaching software to play ever-more sophisticated games from classic Atari games to titles as advanced as Valve‘s Dota 2. However, despite the incredible results of such projects as OpenAI‘s ‚OpenAI Five‘, we are yet to see such sophisticated AI in commercial video games. This dissertation addresses the lack of sophisticated AI in video games and investigates the feasibility of training intelligent agents in a game environment by attempting to train agents capable of replacing traditional hard-coded AI using Unity‘s open-source machine learning toolkit. 
 
