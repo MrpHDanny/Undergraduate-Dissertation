@@ -9,9 +9,11 @@ Replacing traditional AI in video games using Machine Learning Agents
 </p>
 
 <p align="center">
-MComp Computer Science (Games Engineering) I610
+MComp Computer Science (Games Engineering) I610  </br>
 School of Computing, Newcastle University, Newcastle Upon Tyne, UK
+</p>
 
-Word Count: 12,161
+<p align="center">
+Word Count: 12,161 </br>
 Date of Submission: 07-05-2021
 </p>
