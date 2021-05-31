@@ -1,4 +1,4 @@
-# 
+# machine learning - artificial intelligence - unity - ml-agents - reinforcement learning
 
 <h1 align="center">
 Replacing traditional AI in video games using Machine Learning Agents
