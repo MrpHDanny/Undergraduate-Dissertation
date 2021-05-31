@@ -62,7 +62,7 @@ Strongly inspired by OpenAI‘s paper „Emergent Tool Use from Multi-Agent Inte
 
 </br>
 </br>
-</br>
+
 <strong>Aims and Objectives</strong>
 </br>
 </br>
