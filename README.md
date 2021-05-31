@@ -1,7 +1,7 @@
 # 
 <p align="center">
   tags </br>
-  machine learning - artificial intelligence - finite state machines - unity - ml-agents - reinforcement learning </br>
+  machine learning - artificial intelligence - finite state machines - unity - video games - ml-agents - reinforcement learning </br>
 </p>
 
 <h1 align="center">
