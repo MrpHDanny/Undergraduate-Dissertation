@@ -1,6 +1,8 @@
 # 
-
-tags : machine learning - artificial intelligence - unity - ml-agents - reinforcement learning </br>
+<p align="center">
+  tags </br>
+  machine learning - artificial intelligence - finite state machines - unity - ml-agents - reinforcement learning </br>
+</p>
 
 <h1 align="center">
 Replacing traditional AI in video games using Machine Learning Agents
