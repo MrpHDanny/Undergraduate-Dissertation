@@ -90,5 +90,5 @@ In the end, both the hider and seeker agents were successfully trained to play a
 </br>
 ...... 
 </br>
-full dissertation can be downloaded from this github
+full dissertation can be downloaded from this repo
 
