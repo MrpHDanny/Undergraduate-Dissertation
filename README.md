@@ -1,5 +1,6 @@
-![screenshot](poster.png)
 
+<p align="center">![screenshot](poster.png)
+</p>
 # 
 <p align="center">
   tags </br>
